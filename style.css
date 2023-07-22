@@ -1,0 +1,163 @@
+html{
+    font-size: 20px;
+    background: url(https://images.unsplash.com/photo-1525468568166-6f2cd17c7ec9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80);
+    background-size: 100% 100%;
+    font-family: 'Gloria Hallelujah', sans-serif;
+}
+
+.container1 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    
+    
+}
+
+.score {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size:30px;
+}
+
+.message {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+}
+
+.rock {
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    font-size:30px;
+}
+
+img {
+    height : 150px;
+    width : 150px;
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+.rock2 {
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.paper {
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    font-size:30px;
+    flex-direction: row;
+}
+
+.containerrock {
+    display:flex;
+    flex-direction: row;
+    
+}
+
+.containerpaper {
+    display:flex;
+    
+}
+.containerscissors {
+    display:flex;
+
+}
+
+.bigcontainer {
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    gap:200px;
+    padding: 30px;
+}
+
+.dashboard {
+    display:flex;
+    flex-direction: row;
+    gap:70px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.playerdashboard1 {
+    display:flex;
+}
+
+.computerdashboard1 {
+    display:flex;
+    gap:20px;
+    flex-direction: column;
+}
+
+.playerdashboard {
+    display:flex;
+}
+
+.computerdashboard {
+    display:flex;
+    gap:20px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.scissors {
+    font-size:30px;
+}
+
+.btn{
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    outline: none;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: row;
+}
+
+.supremecontainer {
+    display:flex;
+   
+    align-items:center;
+    flex-direction: row;
+}
+
+.buttons {
+    flex-direction: row;
+    display:flex;
+}
+
+.text-line {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap:40px;
+    font-weight: bold;
+
+}
+
+.text {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-weight: bold;
+
+}
